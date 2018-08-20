@@ -124,7 +124,7 @@
     "prebuild": "./scripts/link_plugin_placeholder.js",
     "build": "ng build --prod && npm run legacy-webpack",
     "preserve": "./scripts/link_plugin_placeholder.js",
-    "serve": "ng serve",
+    "serve": "ng serve --host 0.0.0.0",
     "pretest": "./scripts/link_plugin_placeholder.js",
     "test": "ng test",
     "tslint_typechecks": "./node_modules/.bin/tslint -p . -c tslint_typechecks.json",
